@@ -11,7 +11,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.hd-container, main, .ft-container {
+.hd-container,
+main,
+.ft-container {
     width: 900px;
     margin: 0 auto;
 }
@@ -58,14 +60,15 @@ header {
     background: url("images/search_button.png") no-repeat;
 }
 
-.search-bar input, .search-bar button {
+.search-bar input,
+.search-bar button {
     outline: none;
 }
 
 nav>ul {
     list-style: none;
     padding: 0 0 10px;
-    margin: 0;
+    margin: 0 0 15px;
     display: flex;
     justify-content: flex-end;
 }
@@ -74,14 +77,49 @@ nav>ul {
     display: inline-block;
 } */
 
-nav a, .item {
+nav a,
+.item {
     text-decoration: none;
     color: white;
 }
 
 nav a {
-    padding: 5px 15px;
-    background-color: #427fef78;
+    padding: 0 15px;
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: bold;
+    /* background-color: #427fef78; */
+}
+
+nav a:hover {
+    color: #005CA0;
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.nav-sep {
+    background: url(images/menu_sep.png);
+    width: 4px;
+}
+
+#home {
+    background: url(images/menu_home.png) -17px top no-repeat;
+    width: 17px;
+    height: 15px;
+    margin-left: 10px;
 }
 
 main {
@@ -95,7 +133,8 @@ main>section {
     background-color: rgba(255, 0, 0, 0.356);
 }
 
-.card-large, .card-small {
+.card-large,
+.card-small {
     width: 293px;
     margin-top: 25px;
     background-color: rgba(74, 236, 236, 0.411);
