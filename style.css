@@ -335,8 +335,13 @@ footer {
     margin-left: 10px;
 }
 
+.main-contact {
+    width: 100%;
+}
+
 .boxes {
     display: flex;
+    justify-content: space-between;
 }
 
 .contact-cube {
