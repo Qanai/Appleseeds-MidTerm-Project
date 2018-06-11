@@ -98,9 +98,13 @@ nav a {
     /* background-color: #427fef78; */
 }
 
-nav a:hover {
+nav a:hover, .card-large .nav-link:hover, .item:hover {
     color: #005CA0;
     text-decoration: underline;
+}
+
+.item:hover {
+    border-left-color: white;
 }
 
 .dropdown {
@@ -273,4 +277,8 @@ footer {
 
 .item:last-child {
     border-left: 0;
+}
+
+#fb img {
+    vertical-align: bottom;
 }
