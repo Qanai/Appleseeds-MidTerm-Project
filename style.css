@@ -161,6 +161,7 @@ nav a:hover,
 
 #homeContact {
     background: url(images/menu_home.png) 13px top no-repeat;
+    margin-left: 0;
 }
 
 main {
