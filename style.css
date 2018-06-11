@@ -32,6 +32,11 @@ header {
     /* background-color: rgba(0, 128, 0, 0.404); */
 }
 
+.hd-container img {
+    position: relative;
+    top: 20px;
+}
+
 .hd-content {
     display: flex;
     flex-direction: column;
@@ -107,6 +112,22 @@ nav a:hover {
     background-color: #8c8888;
     box-shadow: -2px 2px 3px 0px #5d5d5dbf;
     display: none;
+}
+
+.submenu a {
+    width: 100%;
+    padding: 5px 15px;
+    border-bottom: 1px solid #b5b4b4;
+    background-image: linear-gradient(#adacac 2%, #7b7a7a 40%);
+}
+
+.submenu a:last-child {
+    border-bottom: 0;
+}
+
+.submenu a:hover {
+    background-color: #b5b4b4;
+    background-image: linear-gradient(lightgray, darkgray);
 }
 
 .dropdown:hover .submenu {
