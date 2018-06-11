@@ -266,8 +266,9 @@ footer {
 }
 
 .item {
-    padding: 0 15px;
+    padding: 0 6px;
     border-left: 1px solid;
+    font-size: 0.9em;
 }
 
 .item:last-child {
