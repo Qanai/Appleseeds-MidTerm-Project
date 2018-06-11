@@ -148,11 +148,19 @@ nav a:hover,
     width: 4px;
 }
 
-#home {
-    background: url(images/menu_home.png) -17px top no-repeat;
+#home,
+#homeContact {
     width: 17px;
     height: 15px;
     margin-left: 10px;
+}
+
+#home {
+    background: url(images/menu_home.png) -17px top no-repeat;
+}
+
+#homeContact {
+    background: url(images/menu_home.png) 13px top no-repeat;
 }
 
 main {
