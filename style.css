@@ -277,8 +277,16 @@ main {
     background-image: url("images/paz_250x110059890678.jpg");
 }
 
-.card-small:nth-child(5) .image-content {
+.image-content.areas {
     background-image: url("images/paz_250x110103131473.jpg");
+}
+
+.image-content.tipz {
+    background-image: url("images/250X110668568400.jpg");
+}
+
+.image-content.yellow {
+    background-image: url("images/yellow.jpg");
 }
 
 .map-content {
@@ -462,4 +470,12 @@ input, textarea, button {
 .toolbar a {
     text-decoration: none;
     color: #4b4b4b;
+}
+
+.slide {
+    display: none;
+}
+
+.active {
+    display: block;
 }
