@@ -108,7 +108,7 @@ nav a:hover, .card-large .nav-link:hover, .item:hover, .card-small .nav-link:hov
 
 .submenu {
     position: absolute;
-    top: 100%;
+    top: calc(100% + 25px);
     background-color: #8c8888;
     box-shadow: -2px 2px 3px 0px #5d5d5dbf;
     display: none;
